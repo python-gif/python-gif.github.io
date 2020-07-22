@@ -156,6 +156,135 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-【web前端开发】《Web基础学习》（HTML5)（二）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/07/22/%E3%80%90web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E3%80%91%E3%80%8AWeb%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E3%80%8B%EF%BC%88HTML5)%EF%BC%88%E4%BA%8C%EF%BC%89/">【web前端开发】《Web基础学习》（HTML5)（二）</a>
+    </h1>
+  
+
+        
+        <a href="/2020/07/22/%E3%80%90web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E3%80%91%E3%80%8AWeb%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E3%80%8B%EF%BC%88HTML5)%EF%BC%88%E4%BA%8C%EF%BC%89/" class="archive-article-date">
+  	<time datetime="2020-07-22T03:55:20.255Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-07-22</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="基础标签"><a href="#基础标签" class="headerlink" title="基础标签"></a>基础标签</h2><h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><h4 id="head"><a href="#head" class="headerlink" title="head"></a>head</h4><blockquote>
+<p><a href="https://man.ilovefishc.com/pageHTML5/head.html" target="_blank" rel="noopener">详细介绍链接</a></p>
+</blockquote>
+<blockquote>
+<p>作用:<code>&lt; head&gt;</code> 标签用于定义文档的头部，它是所有头部元素的容器。</p>
+</blockquote>
+<p>&lt; head&gt;` 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。<br>==注意== ：下面这些标签可用在 head 部分：&lt; base&gt;&lt; link&gt;&lt; meta&gt;&lt; script&gt;&lt; style&gt;&lt; title&gt;。其中==<title>==是 head 部分中唯一必需的标签。</p>
+<h4 id="p"><a href="#p" class="headerlink" title="p"></a>p</h4><blockquote>
+<p><a href="https://man.ilovefishc.com/pageHTML5/p.html" target="_blank" rel="noopener">详细介绍链接</a></p>
+</blockquote>
+<blockquote>
+<p>作用:&lt; p&gt; 标签用于定义一个段落。</p>
+</blockquote>
+<ul>
+<li>p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间，你也可以通过样式表进行约束。</li>
+</ul>
+<h4 id="title"><a href="#title" class="headerlink" title="title"></a>title</h4><blockquote>
+<p><a href="https://man.ilovefishc.com/pageHTML5/title.html" target="_blank" rel="noopener">详细介绍链接</a></p>
+</blockquote>
+<blockquote>
+<p>作用:<code>&lt; title&gt;</code> 标签用于定义文档的标题。</p>
+</blockquote>
+<ul>
+<li><p>浏览器通常将其内容显示在浏览器窗口的标题栏或状态栏上</p>
+<p>==注意==：<code>&lt; title&gt;</code> 标签必须位于 <a href="https://man.ilovefishc.com/pageHTML5/head.html" target="_blank" rel="noopener">``</a> 标签内部。</p>
+<p>如果把网页加入用户的链接列表或者收藏夹、书签列表，title 元素的内容将成为该网页链接的默认名称。</p>
+</li>
+</ul>
+<h4 id="meta"><a href="#meta" class="headerlink" title="meta"></a>meta</h4><blockquote>
+<h3 id="meta详细介绍链接"><a href="#meta详细介绍链接" class="headerlink" title="meta详细介绍链接"></a>meta<a href="https://man.ilovefishc.com/pageHTML5/meta.html" target="_blank" rel="noopener">详细介绍链接</a></h3></blockquote>
+<blockquote>
+<p>作用:  </p>
+</blockquote>
+<ul>
+<li><p>网页尺寸==实现自适应==（方便手机端用户）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>解决乱码问题（必有）</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>描述网页内容(方便检索)</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">"《个人博客》技术分享"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>为搜索引擎提供关键词</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"小周,Web开发,HTML5,CSS3,Web,python,Opencv,tensorflow,jave,c#,js编程学习"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>定义网页的作者</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"author"</span> <span class="attr">content</span>=<span class="string">"小周"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>自动刷新页面并跳转到指定页面</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"5;http://bbs.fishc.com"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+</li>
+</ul>
+<p>位置：</p>
+<p>放在&lt; head&gt;部分，这些作用越早让浏览器知道越好</p>
+<p>注意：</p>
+<p>&lt; meta&gt; 标签永远位于 &lt; head&gt; 标签内部。<br> content 属性必须和 name 或 http-equiv 属性共存亡</p>
+<h4 id="style"><a href="#style" class="headerlink" title="style"></a>style</h4><blockquote>
+<p><a href="https://man.ilovefishc.com/pageHTML5/style.html" target="_blank" rel="noopener">详细介绍链接</a></p>
+</blockquote>
+<blockquote>
+<p>作用:&lt; style&gt; 标签用于为 HTML 文档定义样式信息。</p>
+</blockquote>
+<ul>
+<li>style 元素可以出现在 HTML 文档中的各个部分，一个文档可以包含多个 style 元素。</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/2020/07/22/%E3%80%90web%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E3%80%91%E3%80%8AWeb%E5%9F%BA%E7%A1%80%E5%AD%A6%E4%B9%A0%E3%80%8B%EF%BC%88HTML5)%EF%BC%88%E4%BA%8C%EF%BC%89/">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-【web前端开发】《Web基础学习》（HTML5)（一）" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -176,7 +305,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="【web前端开发】-《Web基础学习》（HTML5"><a href="#【web前端开发】-《Web基础学习》（HTML5" class="headerlink" title="【web前端开发】 《Web基础学习》（HTML5)"></a>【web前端开发】 《Web基础学习》（HTML5)</h1><h2 id="基础标签"><a href="#基础标签" class="headerlink" title="基础标签"></a>基础标签</h2><h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><h4 id="DOCTYPE"><a href="#DOCTYPE" class="headerlink" title="!DOCTYPE"></a>!DOCTYPE</h4><blockquote>
+        <h2 id="基础标签"><a href="#基础标签" class="headerlink" title="基础标签"></a>基础标签</h2><h3 id="基础"><a href="#基础" class="headerlink" title="基础"></a>基础</h3><h4 id="DOCTYPE"><a href="#DOCTYPE" class="headerlink" title="!DOCTYPE"></a>!DOCTYPE</h4><blockquote>
 <p><a href="https://man.ilovefishc.com/pageHTML5/!DOCTYPE.html" target="_blank" rel="noopener">详细介绍链接</a></p>
 </blockquote>
 <blockquote>
@@ -240,75 +369,6 @@
 </li>
 <li><p>相反，应当使用层叠样式表定义来达到漂亮的显示效果</p>
 </li>
-</ul>
-<h4 id="head"><a href="#head" class="headerlink" title="head"></a>head</h4><blockquote>
-<p><a href="https://man.ilovefishc.com/pageHTML5/head.html" target="_blank" rel="noopener">详细介绍链接</a></p>
-</blockquote>
-<blockquote>
-<p>作用:<code>&lt;head&gt;</code> 标签用于定义文档的头部，它是所有头部元素的容器。</p>
-</blockquote>
-<p>&lt;  head&gt;` 中的元素可以引用脚本、指示浏览器在哪里找到样式表、提供元信息等等。</p>
-<p>==注意== ：下面这些标签可用在 head 部分：&lt; base &lt; link&gt;&lt; meta&gt;&lt; script&gt;&lt; style&gt;&lt; title&gt;。其中==<title>==是 head 部分中唯一必需的标签。</p>
-<h4 id="p"><a href="#p" class="headerlink" title="p"></a>p</h4><blockquote>
-<p><a href="https://man.ilovefishc.com/pageHTML5/p.html" target="_blank" rel="noopener">详细介绍链接</a></p>
-</blockquote>
-<blockquote>
-<p>作用:<p> 标签用于定义一个段落。</p>
-</blockquote>
-<ul>
-<li>p 元素会自动在其前后创建一些空白。浏览器会自动添加这些空间，你也可以通过样式表进行约束。</li>
-</ul>
-<h4 id="title"><a href="#title" class="headerlink" title="title"></a>title</h4><blockquote>
-<p><a href="https://man.ilovefishc.com/pageHTML5/title.html" target="_blank" rel="noopener">详细介绍链接</a></p>
-</blockquote>
-<blockquote>
-<p>作用:<code>&lt;title&gt;</code> 标签用于定义文档的标题。</p>
-</blockquote>
-<ul>
-<li><p>浏览器通常将其内容显示在浏览器窗口的标题栏或状态栏上</p>
-<p>==注意==：<code>&lt;title&gt;</code> 标签必须位于 <a href="https://man.ilovefishc.com/pageHTML5/head.html" target="_blank" rel="noopener">``</a> 标签内部。</p>
-<p>如果把网页加入用户的链接列表或者收藏夹、书签列表，title 元素的内容将成为该网页链接的默认名称。</p>
-</li>
-</ul>
-<h4 id="meta"><a href="#meta" class="headerlink" title="meta"></a>meta</h4><blockquote>
-<h3 id="meta详细介绍链接"><a href="#meta详细介绍链接" class="headerlink" title="meta详细介绍链接"></a>meta<a href="https://man.ilovefishc.com/pageHTML5/meta.html" target="_blank" rel="noopener">详细介绍链接</a></h3></blockquote>
-<blockquote>
-<p>作用:  </p>
-</blockquote>
-<ul>
-<li><p>网页尺寸==实现自适应==（方便手机端用户）</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width, initial-scale=1.0"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>解决乱码问题（必有）</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">charset</span>=<span class="string">"UTF-8"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>描述网页内容(方便检索)</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"description"</span> <span class="attr">content</span>=<span class="string">"《个人博客》技术分享"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>为搜索引擎提供关键词</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"keywords"</span> <span class="attr">content</span>=<span class="string">"小周,Web开发,HTML5,CSS3,Web,python,Opencv,tensorflow,jave,c#,js编程学习"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>定义网页的作者</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"author"</span> <span class="attr">content</span>=<span class="string">"小周"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-</li>
-<li><p>自动刷新页面并跳转到指定页面</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">http-equiv</span>=<span class="string">"refresh"</span> <span class="attr">content</span>=<span class="string">"5;http://bbs.fishc.com"</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-</li>
-</ul>
-<p>位置：</p>
-<p>放在<head>部分，这些作用越早让浏览器知道越好</p>
-<p>注意：</p>
-<p>&lt; meta&gt; 标签永远位于 <head> 标签内部。</p>
-<p> content 属性必须和 name 或 http-equiv 属性共存亡</p>
-<h4 id="style"><a href="#style" class="headerlink" title="style"></a>style</h4><blockquote>
-<p><a href="https://man.ilovefishc.com/pageHTML5/style.html" target="_blank" rel="noopener">详细介绍链接</a></p>
-</blockquote>
-<blockquote>
-<p>作用:<style> 标签用于为 HTML 文档定义样式信息。</p>
-</blockquote>
-<ul>
-<li>style 元素可以出现在 HTML 文档中的各个部分，一个文档可以包含多个 style 元素。</li>
 </ul>
 
       
